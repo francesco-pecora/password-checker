@@ -36,7 +36,7 @@ def main(args):
     for password in args:
         count = password_api_check(password)
         if count:
-            print(f'{password} was found {count}. You should probably change it...')
+            print(f'{password} was found {count} times. You should probably change it...')
         else:
             print(f'{password} was NOT found. Carry on!')
 
