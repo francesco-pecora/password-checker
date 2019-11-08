@@ -41,6 +41,5 @@ def main(args):
             print(f'{password} was NOT found. Carry on!')
 
 
-
-# getting the passwords to be processed from the terminal
-main(sys.argv[1:])
+if __name__ == '__main__':
+    sys.exit(main(sys.argv[1:]))
